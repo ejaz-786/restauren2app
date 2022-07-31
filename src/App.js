@@ -1,25 +1,57 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import Tester from './COMPONENTS/Tester'
+// import './App.css';
+// import Checks from './COMPONENTS/Checks';
+// // import RestroApp from './COMPONENTS/RestroApp';
+// import SignUp from './COMPONENTS/SignUp';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// // import SingIn from './COMPONENTS/SingIn';
+
+class App extends Component {
+   
+  state = {
+
+  }
+
+  render() {
+    return (
+       <>
+        {/* <RestroApp/> */}
+
+        {/* <SingIn/> */}
+        {/* <Checks/> */}
+        <hr/>
+        {/* <SignUp/> */}
+        <Tester/>
+      
+
+       </>
+    )
+  }
 }
 
-export default App;
+export default App
+
+
+
+// import './App.css';
+// import Checks from './COMPONENTS/Checks';
+// // import RestroApp from './COMPONENTS/RestroApp';
+// import SignUp from './COMPONENTS/SignUp';
+// // import SingIn from './COMPONENTS/SingIn';
+
+// function App() {
+//   return (
+   
+//  <>
+//  {/* <RestroApp/> */}
+
+//  {/* <SingIn/> */}
+//  <Checks/>
+//  <hr/>
+//  <SignUp/>
+//  </>
+//   );
+// }
+
+// export default App;
